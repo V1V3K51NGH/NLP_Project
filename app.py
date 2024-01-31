@@ -8,8 +8,10 @@ from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 import nltk
 
-nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 st.title(":orange[NLP]")
 st.header(":green[Financial Sentiment Analysis]")
