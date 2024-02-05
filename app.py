@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 import nltk
+import pickle
 
 nltk.download('punkt')
 nltk.download('stopwords')
