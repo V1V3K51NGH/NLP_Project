@@ -50,7 +50,7 @@ def preprocess_text(text):
 
 
 if st.button('Predict'):
-    /#loaded_model = load("model.joblib")
+    #loaded_model = load("model.joblib")
 
     file_path = 'model.pkl'
 
