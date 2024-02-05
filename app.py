@@ -56,7 +56,7 @@ if st.button('Predict'):
     file_path = 'model.pkl'
 
     with open(file_path, 'rb') as file:
-    loaded_model = pickle.load(file)
+        loaded_model = pickle.load(file)
 
     prediction = loaded_model.predict(df['cleaned_sentence']) 
     
