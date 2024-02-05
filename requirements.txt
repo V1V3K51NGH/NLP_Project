@@ -1,5 +1,6 @@
 streamlit
 scikit-learn
+Pipeline
 xgboost
 joblib==1.0.1
 pandas
