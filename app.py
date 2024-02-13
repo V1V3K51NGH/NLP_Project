@@ -1,5 +1,6 @@
 from os import chmod
 import pickle
+from pickle import load
 import pandas as pd
 import streamlit as st 
 from nltk.tokenize import word_tokenize
