@@ -5,5 +5,5 @@ xgboost
 pandas
 numpy
 nltk
-pickle
+joblib
 os
