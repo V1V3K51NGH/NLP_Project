@@ -1,8 +1,7 @@
 from os import chmod
-import joblib
+import pickle
 import pandas as pd
 import streamlit as st 
-from joblib import load
 from nltk.tokenize import word_tokenize
 import re
 from nltk.corpus import stopwords
@@ -51,7 +50,7 @@ def preprocess_text(text):
 
 
 if st.button('Predict'):
-    loaded_model = load(rb"C:\Users\V1V3K\Desktop\Project\P340\model.sav")
+    loaded_model = load('model.pkl')
 
     prediction = loaded_model.predict(df['cleaned_sentence']) 
     
